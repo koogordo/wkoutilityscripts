@@ -1,0 +1,22 @@
+{
+  "name": "wkodbmods",
+  "version": "1.0.0",
+  "description": "Tools to make specific types of modifications to the wko database. Usually these are used to fix issues that are caused by improperly stored data (e.g. compressing expanded forms, changing previous visits)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/moment": "^2.13.0",
+    "@types/pouchdb": "^6.4.0",
+    "moment": "^2.24.0",
+    "pouchdb": "^7.1.1",
+    "pouchdb-collate": "^7.1.1",
+    "pouchdb-find": "^7.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}
